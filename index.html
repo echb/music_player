@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <div class="menuContainer">
+    <menu type="toolbar">
+      <ul class="songs"></ul>
+    </menu>
+  </div>
+  <audio class="song" controls src="./Wardruna - Kvitravn.flac"></audio>
+  <div class="cardContainer">
+    <div class="card">
+      <div class="darkToggleBox">
+        <img src="https://iconoir.com/source/icons/light-bulb-on.svg" alt="" class="darkToggleBtn">
+      </div>
+      <div class="topCard">
+        <span>Music Player</span>
+        <div class="playlist">Album List<img src="" alt="" class="albumBtn"></div>
+      </div>
+      <div class="imgAlbumBox">
+        <img src="" alt="" id="imageAlbum">
+      </div>
+      <p id="songName"></p>
+      <p id="songArtist"></p>
+      <div class="time">
+        <time class="alctualTime"></time>
+        <input type="range" min="1" max="" value="0" id="songProgress">
+        <time class="totalTime"></time>
+      </div>
+      <div class="cardBottom">
+        <img src="" alt="" class="before">
+        <img src="" alt="PP" class="playPause">
+        <img src="" alt="" class="after">
+      </div>
+      <div class="volumeBox">
+        <img src="https://iconoir.com/source/icons/sound-high.svg" alt="vlume" id="volumeIcon">
+        <input type="range" min="1" max="100" value="100" id="volume">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
